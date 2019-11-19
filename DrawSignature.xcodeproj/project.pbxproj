@@ -14,6 +14,9 @@
 		7DC75E452383C0D800032AFA /* DrawSignature.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DC75E432383C0D800032AFA /* DrawSignature.xcdatamodeld */; };
 		7DC75E472383C23300032AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC75E462383C23200032AFA /* Assets.xcassets */; };
 		7DC75E4A2383C23300032AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC75E482383C23300032AFA /* LaunchScreen.storyboard */; };
+		7DC75E53238406E800032AFA /* SignatureCanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC75E51238406E800032AFA /* SignatureCanvasViewController.swift */; };
+		7DC75E54238406E800032AFA /* SignatureCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC75E52238406E800032AFA /* SignatureCanvasViewController.xib */; };
+		7DC75E582384152300032AFA /* ShowSignedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC75E572384152300032AFA /* ShowSignedImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		7DC75E462383C23200032AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC75E492383C23300032AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC75E4B2383C23300032AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC75E51238406E800032AFA /* SignatureCanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureCanvasViewController.swift; sourceTree = "<group>"; };
+		7DC75E52238406E800032AFA /* SignatureCanvasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignatureCanvasViewController.xib; sourceTree = "<group>"; };
+		7DC75E572384152300032AFA /* ShowSignedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignedImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				7DC75E482383C23300032AFA /* LaunchScreen.storyboard */,
 				7DC75E4B2383C23300032AFA /* Info.plist */,
 				7DC75E432383C0D800032AFA /* DrawSignature.xcdatamodeld */,
+				7DC75E51238406E800032AFA /* SignatureCanvasViewController.swift */,
+				7DC75E52238406E800032AFA /* SignatureCanvasViewController.xib */,
+				7DC75E572384152300032AFA /* ShowSignedImageViewController.swift */,
 			);
 			path = DrawSignature;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC75E4A2383C23300032AFA /* LaunchScreen.storyboard in Resources */,
+				7DC75E54238406E800032AFA /* SignatureCanvasViewController.xib in Resources */,
 				7DC75E472383C23300032AFA /* Assets.xcassets in Resources */,
 				7DC75E422383C0D800032AFA /* Main.storyboard in Resources */,
 			);
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC75E53238406E800032AFA /* SignatureCanvasViewController.swift in Sources */,
+				7DC75E582384152300032AFA /* ShowSignedImageViewController.swift in Sources */,
 				7DC75E3F2383C0D700032AFA /* ViewController.swift in Sources */,
 				7DC75E3B2383C0D700032AFA /* AppDelegate.swift in Sources */,
 				7DC75E452383C0D800032AFA /* DrawSignature.xcdatamodeld in Sources */,
